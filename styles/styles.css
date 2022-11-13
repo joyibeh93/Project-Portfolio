@@ -8,7 +8,19 @@
 }body{
     font-family: var(--default-font-family);
 }
-.hero {
+h2{
+    font-size: 64px;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    color: black;
+   
+}
+p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9em;
+}
+.hero-section {
     background-color: #f9fef7;
     text-align: center;
     padding: 170px 15px;
@@ -19,14 +31,30 @@
     font-family:var(--default-font-family);
     margin:0;
 }
-.hero h1{
+h1{
     font-size: 96px;
+    line-height: 1.5;
 }
 
 .hero h2{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     font-family: var(--heading-font-family);
     line-height: 2;
     color:#272142
 }
+.project-description{
+    padding: 120px 60px;
+}
+
+@media (max-width:900px) {
+    h1{
+        font-size: 50px;
+    }
+    .project-description{
+        padding:0;
+        text-align: center;
+    
+}
+}
+

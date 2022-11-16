@@ -47,6 +47,30 @@ h1{
     padding: 120px 60px;
 }
 
+/* STYLING THE ABOUT PAGE */
+.about-session{
+    padding: 10px 15px;
+}
+.about-session h1{
+    font-size: 64px;
+    line-height: 1em;
+
+}
+.about-session h2{
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+.about-content{
+   
+    margin: 30px;
+
+}
+.about-img img{
+    border-radius: 20px;
+    border:2px solid #000;
+    width: 300px;
+
+}
 @media (max-width:900px) {
     h1{
         font-size: 50px;
@@ -55,6 +79,14 @@ h1{
         padding:0;
         text-align: center;
     
+}
+.about-session{
+    text-align: center;
+    padding: 0;
+}
+.about-session h1{
+    font-size: 44px;
+
 }
 }
 
